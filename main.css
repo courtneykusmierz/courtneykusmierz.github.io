@@ -1,0 +1,45 @@
+body {
+	background-color:#386FA4;
+}
+
+h1 {
+
+font-family: 'Tillana', cursive;
+border-bottom: 5px solid #01161E;
+
+}
+
+#about-me-wrap {
+    background-color: #124559;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+}
+
+#profile-wrap {
+	width: 40%;
+	margin-right: 10%;
+	float: left;
+}
+
+#bio-wrap{
+	width: 50%;
+	float: right;
+}
+
+.clear {
+	clear:both;
+}
+
+@media only screen and (max-width: 767px) {
+	#profile-wrap {
+		width: 100%!important;
+		float: none!important;
+		margin-right: 0!important;
+	}
+
+	#bio-wrap {
+		width: 100%!important;
+		float: none!important;
+		margin-top: 50px!important;
+	}
